@@ -34,8 +34,8 @@ Application
 
 #define SIZE 4
 
-int array1[SIZE] = [1,2,3,4];
-int array2[SIZE] = [5,6,7,8];
+int array1[SIZE] = {1,2,3,4};
+int array2[SIZE] = {5,6,7,8};
 
 int sumArray[SIZE];
 
