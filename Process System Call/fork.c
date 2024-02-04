@@ -10,7 +10,7 @@ int main(int argc, char *argv[]){
 	if(id == 0){
 		printf("child - My ID is : %d\n",getpid());
 		printf("Child - My parent ID is : %d\n",getppid());
-		execl("./app","app","argc","argv[1]",NULL);
+		execl("./2_appl","app2.c","argc","argv[1]",NULL);
 		exit(34);
 	}
 	else if(id > 0){
