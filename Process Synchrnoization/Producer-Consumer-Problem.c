@@ -38,7 +38,7 @@ int main(){
 	for(i=0;i<m;i++)
 		pthread_create(&p[i],NULL,producer,NULL);
 	for(i=0;i<m;i++)
-	pthread_join(p[i],NULL);
+		pthread_join(p[i],NULL);
 	
 	pthread_t c[n];
 	for(j=0;j<n;j++)
