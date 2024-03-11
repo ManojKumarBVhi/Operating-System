@@ -44,3 +44,4 @@ cc -shared -o mylib.so *.o
 sudo cp mylib.so /usr/bin
 cc main.c -L. -l:mylib.so -o dynamic
 ./dynamic
+*/
